@@ -25,6 +25,7 @@ console.log(add(5,4,"hello world"))
 //void function
 const logMessage = (msg: string): void => {
     console.log('this is the message: ' + msg)
+    //cannot have a return since it's a void function
 }
 
 logMessage("hello world")
