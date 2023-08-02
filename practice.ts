@@ -6,3 +6,9 @@
             console.log(addNums(1, 2))
          I would get 3 as a string in the console.
 */
+
+const addNums = (num1: number, num2: number):string => {
+    return `${num1 + num2}`
+}
+
+console.log(addNums(1,3))
