@@ -39,3 +39,8 @@ sayHi = (name) => {
 }
 
 sayHi("Chelsey")
+
+//Any type - should any be used sparingly!!
+let age: any = '100'
+age = 100
+age = [1, 2, 3]
