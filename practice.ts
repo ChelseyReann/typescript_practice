@@ -29,3 +29,13 @@ const logMessage = (msg: string): void => {
 }
 
 logMessage("hello world")
+
+//function declaration
+
+let sayHi: (name: string) => void;
+
+sayHi = (name) => {
+    console.log("hello " + name)
+}
+
+sayHi("Chelsey")
