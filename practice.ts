@@ -19,3 +19,5 @@ const add = (a: number, b: number, c?: number | string) => {
 
     return a + b
 }
+
+console.log(add(5,4,"hello world"))
