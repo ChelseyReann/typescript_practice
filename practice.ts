@@ -53,3 +53,26 @@ let y: StringOrNumber
 x = 100
 x = '100'
 //x = true -> this will give an error because Boolean is not included in our type
+
+type PersonObject = {
+    name: string;
+    id: StringOrNumber
+}
+
+const person1: PersonObject = {
+    name: 'John',
+    id: 1
+}
+
+const person2: PersonObject = {
+    name: 'Chelsey',
+    id: "2"
+}
+
+const sayHello = (person: PersonObject):string => {
+    return 'Hi ' + person.name
+}
+
+console.log(sayHello(person2))
+
+//DOM and type casting
