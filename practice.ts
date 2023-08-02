@@ -14,7 +14,7 @@ const addNums = (num1: number, num2: number):string => {
 console.log(addNums(1,3))
 
 //Making c an optional parameter and a union type = it can be more than 1 type
-const add = (a: number, b: number, c?: number | string) => {
+const add = (a: number, b: number, c?: number | string):number => {
     console.log(c);
 
     return a + b
