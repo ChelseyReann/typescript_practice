@@ -44,3 +44,12 @@ sayHi("Chelsey")
 let age: any = '100'
 age = 100
 age = [1, 2, 3]
+
+//type aliases
+type StringOrNumber = string | number
+let x: StringOrNumber
+let y: StringOrNumber
+
+x = 100
+x = '100'
+//x = true -> this will give an error because Boolean is not included in our type
