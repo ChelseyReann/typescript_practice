@@ -21,3 +21,10 @@ const add = (a: number, b: number, c?: number | string):number => {
 }
 
 console.log(add(5,4,"hello world"))
+
+//void function
+const logMessage = (msg: string): void => {
+    console.log('this is the message: ' + msg)
+}
+
+logMessage("hello world")
