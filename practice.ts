@@ -76,3 +76,9 @@ const sayHello = (person: PersonObject):string => {
 console.log(sayHello(person2))
 
 //DOM and type casting
+const link = document.querySelector('a')!;
+//non-null assertion operator
+console.log(link.href)
+
+const form = document.getElementById('signup-form') as HTMLFormElement;
+console.log(form.method)
